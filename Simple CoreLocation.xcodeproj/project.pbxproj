@@ -12,6 +12,8 @@
 		05B4D67D2370592B001CBC92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05B4D67B2370592B001CBC92 /* Main.storyboard */; };
 		05B4D67F2370592D001CBC92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05B4D67E2370592D001CBC92 /* Assets.xcassets */; };
 		05B4D6822370592D001CBC92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05B4D6802370592D001CBC92 /* LaunchScreen.storyboard */; };
+		05B4D68B23705974001CBC92 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05B4D68A23705974001CBC92 /* MapKit.framework */; };
+		05B4D68D23705984001CBC92 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05B4D68C23705984001CBC92 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		05B4D67E2370592D001CBC92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05B4D6812370592D001CBC92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05B4D6832370592D001CBC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05B4D68A23705974001CBC92 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		05B4D68C23705984001CBC92 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05B4D68D23705984001CBC92 /* CoreLocation.framework in Frameworks */,
+				05B4D68B23705974001CBC92 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +46,7 @@
 			children = (
 				05B4D6762370592B001CBC92 /* Simple CoreLocation */,
 				05B4D6752370592B001CBC92 /* Products */,
+				05B4D68923705974001CBC92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +69,15 @@
 				05B4D6832370592D001CBC92 /* Info.plist */,
 			);
 			path = "Simple CoreLocation";
+			sourceTree = "<group>";
+		};
+		05B4D68923705974001CBC92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05B4D68C23705984001CBC92 /* CoreLocation.framework */,
+				05B4D68A23705974001CBC92 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

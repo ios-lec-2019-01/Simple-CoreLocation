@@ -2,6 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>항상 사용함</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>항상 사용, 앱 사용할때만 </string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>앱 사용할때만</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
